@@ -45,7 +45,7 @@ npm run dev
 src/
 ├── components/
 │   ├── Grid.vue             # Mostra la graella de 200x200
-│   └── RoverDisplay.vue     # Muestra el rover en pantalla
+│   └── RoverDisplay.vue     # Mostra el rover en pantalla
 ├── App.vue                  # Llògica principal i entrada de comandaments
 ├── roverEngine.js           # Llògica del moviment del rover
 

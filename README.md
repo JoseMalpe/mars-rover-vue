@@ -29,10 +29,10 @@ Aquesta aplicació simula una missió d'exploració a Marte, un **rover** es con
 
 bash
 # Clonar el repo
-git clone https://github.com/tu-usuario/mars-rover-mission.git
+git clone https://github.com/JoseMalpe/mars-rover-mission.git
 cd mars-rover-mission
 
-# Instal·lar dependencias (amb compatibilidad)
+# Instal·lar dependencias (amb compatibilitat)
 npm install --legacy-peer-deps
 
 # Executar servidor

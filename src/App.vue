@@ -51,8 +51,8 @@ const execute = () => {
     </div>
 
     <div v-if="result" class="mt-4 bg-gray-100 p-4 rounded">
-      <p><strong>Final Position:</strong> {{ result.x }}, {{ result.y }}, {{ result.dir }}</p>
-      <p v-if="result.blocked" class="text-red-600">🚧 Obstacle encountered at {{ result.obstacleAt.x }}, {{ result.obstacleAt.y }}</p>
+      <p><strong>Posició final:</strong> {{ result.x }}, {{ result.y }}, {{ result.dir }}</p>
+      <p v-if="result.blocked" class="text-red-600">🚧 Obstacle trobat a: {{ result.obstacleAt.x }}, {{ result.obstacleAt.y }}</p>
     </div>
   </div>
 </template>

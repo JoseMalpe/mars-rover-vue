@@ -1,4 +1,3 @@
-<!-- src/components/Grid.vue -->
 <template>
     <div class="grid" :style="gridStyle">
       <div

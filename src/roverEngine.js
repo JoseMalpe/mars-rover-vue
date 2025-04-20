@@ -14,7 +14,7 @@ export function moveRover(startX, startY, startDir, commands, obstacles = []) {
     else if (dir === 'E') nextX += 1
     else if (dir === 'W') nextX -= 1
 
-    // Detectar si el siguiente paso tiene un obstáculo o está fuera del mapa
+    // Detectar si el següent pas té un obstacle o està fora del mapa
     if (
       nextX < 0 || nextX >= maxGrid ||
       nextY < 0 || nextY >= maxGrid ||
